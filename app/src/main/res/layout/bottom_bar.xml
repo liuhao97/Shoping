@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.yinglan.alphatabs.AlphaTabsIndicator
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_bottom_bar"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:orientation="horizontal">
+
+        <com.yinglan.alphatabs.AlphaTabView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:padding="5dp"
+            app:tabIconNormal="@drawable/bottom_tab_home_normal"
+            app:tabIconSelected="@drawable/bottom_tab_home_selected"
+            app:tabText="首页"
+            app:tabTextSize="13sp"
+            app:textColorNormal="@color/normall"
+            app:textColorSelected="@color/selected"
+            app:badgeBackgroundColor="@color/colorAccent"/>
+
+        <com.yinglan.alphatabs.AlphaTabView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:padding="5dp"
+            app:tabIconNormal="@drawable/bottom_tab_classify_normal"
+            app:tabIconSelected="@drawable/bottom_tab_classify_selected"
+            app:tabText="分类"
+            app:tabTextSize="13sp"
+            app:textColorNormal="@color/normall"
+            app:textColorSelected="@color/selected"
+            app:badgeBackgroundColor="@color/colorAccent"/>
+
+        <com.yinglan.alphatabs.AlphaTabView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:padding="5dp"
+            app:tabIconNormal="@drawable/bottom_tab_shopping_normal"
+            app:tabIconSelected="@drawable/bottom_tab_shopping_selected"
+            app:tabText="购物车"
+            app:tabTextSize="13sp"
+            app:textColorNormal="@color/normall"
+            app:textColorSelected="@color/selected"
+            app:badgeBackgroundColor="@color/colorAccent"/>
+
+
+        <com.yinglan.alphatabs.AlphaTabView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:padding="5dp"
+            app:tabIconNormal="@drawable/bottom_tab_user_normal"
+            app:tabIconSelected="@drawable/bottom_tab_user_selected"
+            app:tabText="我的"
+            app:tabTextSize="13sp"
+            app:textColorNormal="@color/normall"
+            app:textColorSelected="@color/selected"
+            app:badgeBackgroundColor="@color/colorAccent"/>
+
+</com.yinglan.alphatabs.AlphaTabsIndicator>

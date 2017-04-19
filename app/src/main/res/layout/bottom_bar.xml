@@ -5,7 +5,8 @@
     android:id="@+id/main_bottom_bar"
     android:layout_width="match_parent"
     android:layout_height="50dp"
-    android:orientation="horizontal">
+    android:orientation="horizontal"
+    android:background="@color/colorPrimaryDark">
 
         <com.yinglan.alphatabs.AlphaTabView
             android:layout_width="0dp"

@@ -13,7 +13,7 @@ import retrofit2.http.GET;
 
 public interface ShopApi {
 
-    @GET("news/latest")
+    @GET("home?random=84831&encode=9dd34239798e8cb22bf99a75d1882447")
     Observable<HomeResponse> getHome();
 
 }

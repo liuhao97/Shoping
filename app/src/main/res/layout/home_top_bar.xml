@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    tools:showIn="@layout/home_frag">
+    tools:showIn="@layout/home_frag"
+    android:background="@color/colorPrimaryDark">
 
     <ImageView
         android:id="@+id/home_topbar_qrcode"

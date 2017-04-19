@@ -11,7 +11,7 @@ import io.reactivex.Observable;
  * use to :
  */
 
-public class HomeDate implements JsonSource<HomeResponse> {
+public class HomeData implements JsonSource<HomeResponse> {
     @Override
     public Observable<HomeResponse> getJsonData() {
         return ShopClient.getShopApi().getHome();

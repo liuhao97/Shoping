@@ -16,8 +16,8 @@ public interface JsonContract {
 
     }
 
-    public interface Presenter {
-        void setViewCallBack(ViewCallBack viewCallBack);
+    public interface Presenter <V>{
+        void setViewCallBack(V viewCallBack);
 
         void getResponse();
 

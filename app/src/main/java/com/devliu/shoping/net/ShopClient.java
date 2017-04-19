@@ -61,7 +61,7 @@ public class ShopClient {
 
 
     public static ShopApi getShopApi() {
-        String baseUrl = "http://api.jisuapi.com/";
+        String baseUrl = "http://m.yunifang.com/yunifang/mobile/";
 
         OkHttpClient httpClient = new OkHttpClient.Builder()
                 .connectTimeout(DEFAULT_TIMEOUT, TimeUnit.SECONDS)

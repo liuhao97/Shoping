@@ -13,13 +13,110 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
 
             <com.youth.banner.Banner
-                xmlns:app="http://schemas.android.com/apk/res-auto"
                 android:id="@+id/home_top_banner"
                 android:layout_width="match_parent"
                 android:layout_height="180dp" />
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/home_action_grid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/white"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="8dp"/>
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/home_seller_list"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/white"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="8dp"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:background="@android:color/white">
+
+                <TextView
+                    android:id="@+id/home_active_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:layout_centerInParent="true"
+                    android:textSize="15sp"
+                    android:text="优惠活动"/>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/home_active_title"
+                    android:src="@drawable/home_rank_list_title"
+                    android:layout_centerVertical="true"/>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toLeftOf="@id/home_active_title"
+                    android:src="@drawable/home_rank_list_title"
+                    android:layout_centerVertical="true"/>
+
+            </RelativeLayout>
+
+            <com.youth.banner.Banner
+                android:id="@+id/home_active_banner"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="8dp"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:background="@android:color/white">
+
+                <TextView
+                    android:id="@+id/home_subject_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:layout_centerInParent="true"
+                    android:textSize="15sp"
+                    android:text="热门专题"/>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/home_subject_title"
+                    android:src="@drawable/home_rank_list_title"
+                    android:layout_centerVertical="true"/>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toLeftOf="@id/home_subject_title"
+                    android:src="@drawable/home_rank_list_title"
+                    android:layout_centerVertical="true"/>
+
+            </RelativeLayout>
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/home_subject_list"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/white"/>
 
         </LinearLayout>
 

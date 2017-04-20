@@ -1,6 +1,6 @@
 package com.devliu.shoping.config;
 
-import com.devliu.shoping.model.entities.HomeResponse;
+import com.devliu.shoping.entities.home.HomeResponse;
 
 import io.reactivex.Observable;
 import retrofit2.http.GET;
